@@ -5,7 +5,7 @@ class AppContoller {
         this.express = express();
     }
 
-    middlewaress() {
+    middlewares() {
         this.express.use(express.json());
     }
 
